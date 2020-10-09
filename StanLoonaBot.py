@@ -26,7 +26,7 @@ class StanLoonaBot(discord.Client):
             await server.disconnect()
 
 client = StanLoonaBot()
-fin = open("token.txt", 'r')
+fin = open("bot-token.txt", 'r')
 token = fin.read()
 fin.close()
 client.run(token)
