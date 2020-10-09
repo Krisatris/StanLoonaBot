@@ -1,2 +1,0 @@
-# hides token for discord bot
-token.txt
